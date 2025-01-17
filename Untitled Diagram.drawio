@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="6jXB_IKLfn753sRXJyK5">
+    <mxGraphModel dx="1900" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#001DBC;fillColor=#0050ef;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.call_center_agent;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-2" value="if user seems interiusted in buying any stock as user provide the tock symbol or toicker\&lt;div&gt;Tool: an api call using that api key to getr ticker information&amp;nbsp;&lt;/div&gt;&lt;div&gt;present that ticker infdormnation to uiser.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="160" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-3" value="query: im interusted in buying some stocks." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="18" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;json{&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;name:&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;email:&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;phone:&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ticker_symbol:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;interuted_in: buying or selling&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;}&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="13" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-5" value="if intrusted in buying&amp;nbsp;&lt;br&gt;proviude that how much&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="233" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-6" value="if buying:&lt;br&gt;buying agent will respond.&lt;br&gt;a buying agent will chec how is there to buy&lt;br&gt;if user sounds elible to have that much reputation to buy it it will ask to proceed&amp;nbsp;&lt;div&gt;ortherwise rejects it and execution ends.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="188" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-7" value="if selling that will go to selling agent&lt;br&gt;selling agent has a plan to selct from&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="293" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#666666;fillColor=#f5f5f5;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.call_center_agent;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="410" width="46" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#996185;fillColor=#e6d0de;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.call_center_agent;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="46" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-14" value="BUYING AGENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="475" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-15" value="SELLING AGENT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="203" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;interusted _in : selling&lt;br&gt;plan : A, B, C&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="348" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;interusted _in : buying&lt;br&gt;eligibility: Y/N&lt;br&gt;If Y:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;confirm for provided number of stocks.&lt;br&gt;if N:&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end the deal. with sorry message plus&amp;nbsp; the reason&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="393" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.call_center_agent;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="580" width="46" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="yoDKAhvre9Rjy5lFj-I2-19" value="&lt;b&gt;deal confirmation agent.&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="645" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
