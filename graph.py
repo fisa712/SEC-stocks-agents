@@ -21,7 +21,7 @@ os.getenv("GROQ_API_KEY")
 
 # Extend State to include tasks
 class State(TypedDict):
-    messages: Annotated[list, add_messages]
+    messages: Annotated[list, "list of messages"] # add_messages
     details: Dict  # Add tasks to the state
 
 
@@ -101,7 +101,7 @@ class Graph:
             # something else:
 
         return {
-            # "messages": self.new_messages[-1],
+            "messages": self.new_messages,
             "details": details
         }
 
@@ -141,7 +141,7 @@ class Graph:
                 self.new_messages.extend(data)
         upd = self.new_messages[old_messages_count:]
         return {
-            # "messages": self.new_messages[old_messages_count:],
+            "messages": self.new_messages,
             "details": details,
         }
 
@@ -184,9 +184,9 @@ class Graph:
                 self.new_messages.append(data)
 
         # details['plan'] = json_response.get('plan')
-        upd = self.new_messages[old_messages_count:]
+        upd = self.new_messages
         return {
-            # "messages": self.new_messages[old_messages_count:],
+            "messages": self.new_messages,
             "details": details,
         }
 
@@ -220,7 +220,7 @@ class Graph:
                 self.new_messages.extend(data)
 
         return {
-            # "messages": self.new_messages[old_messages_count:],
+            "messages": self.new_messages,
             "details": details,
         }
 
