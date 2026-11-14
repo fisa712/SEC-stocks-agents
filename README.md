@@ -1,6 +1,6 @@
-# FinanceBot
+# SEC Finance agents
 
-FinanceBot is an AI-powered chatbot designed to assist users with buying and selling stocks. It uses a state graph to manage the flow of conversation, leveraging advanced language models for decision-making.
+SEC Finance agents is an AI-powered chatbot designed to assist users with buying and selling stocks. It uses a state graph to manage the flow of conversation, leveraging advanced language models for decision-making.
 
 ---
 
